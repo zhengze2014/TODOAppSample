@@ -3,12 +3,12 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/nav_graph" app:startDestination="@id/todolistFragment">
     <fragment android:id="@+id/todolistFragment"
-              android:name="jp.zhengze.todoappsample.TodolistFragment"
+              android:name="jp.zhengze.todoappsample.ui.TodolistFragment"
               android:label="TodolistFragment">
         <action android:id="@+id/action_todolistFragment_to_todoFragment"
                 app:destination="@id/todoFragment"/>
     </fragment>
     <fragment android:id="@+id/todoFragment"
-              android:name="jp.zhengze.todoappsample.TodoFragment"
+              android:name="jp.zhengze.todoappsample.ui.TodoFragment"
               android:label="TodoFragment"/>
 </navigation>
